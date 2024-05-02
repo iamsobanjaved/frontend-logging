@@ -1,3 +1,4 @@
+import DataDogLoggingService from './DataDogLoggingService';
 import NewRelicLoggingService from './NewRelicLoggingService';
 import {
   configureLoggingService,
@@ -16,4 +17,5 @@ export {
   logInfo,
   logError,
   NewRelicLoggingService,
+  DataDogLoggingService,
 };
